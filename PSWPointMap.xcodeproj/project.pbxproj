@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93F371829CC6E6000A72D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F371729CC6E6000A72D90 /* AppDelegate.swift */; };
+		D93F371A29CC6E6000A72D90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F371929CC6E6000A72D90 /* SceneDelegate.swift */; };
+		D93F371C29CC6E6000A72D90 /* ControlMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F371B29CC6E6000A72D90 /* ControlMapViewController.swift */; };
+		D93F372129CC6E6100A72D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93F372029CC6E6100A72D90 /* Assets.xcassets */; };
+		D93F372429CC6E6100A72D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93F372229CC6E6100A72D90 /* LaunchScreen.storyboard */; };
+		D93F373329CC732900A72D90 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D93F373229CC732900A72D90 /* SnapKit */; };
+		D9A1B04F29CC73F8006B51B3 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = D9A1B04E29CC73F8006B51B3 /* MapboxMaps */; };
+		D9A1B05129CC76E7006B51B3 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B05029CC76E7006B51B3 /* UIView+Extensions.swift */; };
+		D9A1B05429CC9FBE006B51B3 /* ControlMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B05329CC9FBE006B51B3 /* ControlMapView.swift */; };
+		D9A1B05629CCA060006B51B3 /* MapControlBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B05529CCA060006B51B3 /* MapControlBarView.swift */; };
+		D9A1B05C29CCA4FC006B51B3 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B05B29CCA4FC006B51B3 /* Icons.swift */; };
+		D9A1B05E29CCC616006B51B3 /* MapAnnotationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B05D29CCC616006B51B3 /* MapAnnotationFactory.swift */; };
+		D9A1B06129CCFADF006B51B3 /* ControlMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B06029CCFADF006B51B3 /* ControlMapPresenter.swift */; };
+		D9A1B06429CD08B8006B51B3 /* MapSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B06329CD08B8006B51B3 /* MapSettings.swift */; };
+		D9A1B06629CD08DE006B51B3 /* MapUsageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B06529CD08DE006B51B3 /* MapUsageMode.swift */; };
+		D9A1B06829CD0914006B51B3 /* MapModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1B06729CD0914006B51B3 /* MapModuleFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D93F371429CC6E6000A72D90 /* PSWPointMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSWPointMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93F371729CC6E6000A72D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D93F371929CC6E6000A72D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D93F371B29CC6E6000A72D90 /* ControlMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlMapViewController.swift; sourceTree = "<group>"; };
+		D93F372029CC6E6100A72D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93F372329CC6E6100A72D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D93F372529CC6E6100A72D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A1B05029CC76E7006B51B3 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D9A1B05329CC9FBE006B51B3 /* ControlMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlMapView.swift; sourceTree = "<group>"; };
+		D9A1B05529CCA060006B51B3 /* MapControlBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapControlBarView.swift; sourceTree = "<group>"; };
+		D9A1B05B29CCA4FC006B51B3 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		D9A1B05D29CCC616006B51B3 /* MapAnnotationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationFactory.swift; sourceTree = "<group>"; };
+		D9A1B06029CCFADF006B51B3 /* ControlMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlMapPresenter.swift; sourceTree = "<group>"; };
+		D9A1B06329CD08B8006B51B3 /* MapSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSettings.swift; sourceTree = "<group>"; };
+		D9A1B06529CD08DE006B51B3 /* MapUsageMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUsageMode.swift; sourceTree = "<group>"; };
+		D9A1B06729CD0914006B51B3 /* MapModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModuleFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93F371129CC6E6000A72D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A1B04F29CC73F8006B51B3 /* MapboxMaps in Frameworks */,
+				D93F373329CC732900A72D90 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93F370B29CC6E6000A72D90 = {
+			isa = PBXGroup;
+			children = (
+				D93F371629CC6E6000A72D90 /* PSWPointMap */,
+				D93F371529CC6E6000A72D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93F371529CC6E6000A72D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93F371429CC6E6000A72D90 /* PSWPointMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93F371629CC6E6000A72D90 /* PSWPointMap */ = {
+			isa = PBXGroup;
+			children = (
+				D93F372B29CC6E6A00A72D90 /* Resources */,
+				D93F372C29CC6E7600A72D90 /* Source */,
+				D93F372D29CC6E7D00A72D90 /* Support Files */,
+			);
+			path = PSWPointMap;
+			sourceTree = "<group>";
+		};
+		D93F372B29CC6E6A00A72D90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D93F372229CC6E6100A72D90 /* LaunchScreen.storyboard */,
+				D93F372029CC6E6100A72D90 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D93F372C29CC6E7600A72D90 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D93F372E29CC6E8B00A72D90 /* AppDelegates */,
+				D9A1B06929CD09EE006B51B3 /* Modules */,
+				D9A1B05829CCA438006B51B3 /* PSWPointMapUI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D93F372D29CC6E7D00A72D90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D93F372529CC6E6100A72D90 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		D93F372E29CC6E8B00A72D90 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				D93F371729CC6E6000A72D90 /* AppDelegate.swift */,
+				D93F371929CC6E6000A72D90 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		D9A1B05229CC9F9F006B51B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D93F371B29CC6E6000A72D90 /* ControlMapViewController.swift */,
+				D9A1B05D29CCC616006B51B3 /* MapAnnotationFactory.swift */,
+				D9A1B05329CC9FBE006B51B3 /* ControlMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9A1B05829CCA438006B51B3 /* PSWPointMapUI */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1B05529CCA060006B51B3 /* MapControlBarView.swift */,
+				D9A1B05929CCA446006B51B3 /* Extensions */,
+			);
+			path = PSWPointMapUI;
+			sourceTree = "<group>";
+		};
+		D9A1B05929CCA446006B51B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1B05B29CCA4FC006B51B3 /* Icons.swift */,
+				D9A1B05029CC76E7006B51B3 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9A1B05F29CCFACF006B51B3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1B06029CCFADF006B51B3 /* ControlMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9A1B06229CD08AF006B51B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1B06329CD08B8006B51B3 /* MapSettings.swift */,
+				D9A1B06529CD08DE006B51B3 /* MapUsageMode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9A1B06929CD09EE006B51B3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1B06A29CD09F9006B51B3 /* ControlMap */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D9A1B06A29CD09F9006B51B3 /* ControlMap */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1B06729CD0914006B51B3 /* MapModuleFactory.swift */,
+				D9A1B06229CD08AF006B51B3 /* Model */,
+				D9A1B05229CC9F9F006B51B3 /* Views */,
+				D9A1B05F29CCFACF006B51B3 /* Presenter */,
+			);
+			path = ControlMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93F371329CC6E6000A72D90 /* PSWPointMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93F372829CC6E6100A72D90 /* Build configuration list for PBXNativeTarget "PSWPointMap" */;
+			buildPhases = (
+				D93F371029CC6E6000A72D90 /* Sources */,
+				D93F371129CC6E6000A72D90 /* Frameworks */,
+				D93F371229CC6E6000A72D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSWPointMap;
+			packageProductDependencies = (
+				D93F373229CC732900A72D90 /* SnapKit */,
+				D9A1B04E29CC73F8006B51B3 /* MapboxMaps */,
+			);
+			productName = PSWPointMap;
+			productReference = D93F371429CC6E6000A72D90 /* PSWPointMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93F370C29CC6E6000A72D90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D93F371329CC6E6000A72D90 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D93F370F29CC6E6000A72D90 /* Build configuration list for PBXProject "PSWPointMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93F370B29CC6E6000A72D90;
+			packageReferences = (
+				D93F373129CC732900A72D90 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D9A1B04D29CC73F8006B51B3 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
+			productRefGroup = D93F371529CC6E6000A72D90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93F371329CC6E6000A72D90 /* PSWPointMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93F371229CC6E6000A72D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93F372429CC6E6100A72D90 /* LaunchScreen.storyboard in Resources */,
+				D93F372129CC6E6100A72D90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93F371029CC6E6000A72D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A1B05C29CCA4FC006B51B3 /* Icons.swift in Sources */,
+				D93F371C29CC6E6000A72D90 /* ControlMapViewController.swift in Sources */,
+				D93F371829CC6E6000A72D90 /* AppDelegate.swift in Sources */,
+				D9A1B05629CCA060006B51B3 /* MapControlBarView.swift in Sources */,
+				D9A1B05429CC9FBE006B51B3 /* ControlMapView.swift in Sources */,
+				D9A1B06829CD0914006B51B3 /* MapModuleFactory.swift in Sources */,
+				D9A1B05129CC76E7006B51B3 /* UIView+Extensions.swift in Sources */,
+				D9A1B05E29CCC616006B51B3 /* MapAnnotationFactory.swift in Sources */,
+				D9A1B06629CD08DE006B51B3 /* MapUsageMode.swift in Sources */,
+				D93F371A29CC6E6000A72D90 /* SceneDelegate.swift in Sources */,
+				D9A1B06129CCFADF006B51B3 /* ControlMapPresenter.swift in Sources */,
+				D9A1B06429CD08B8006B51B3 /* MapSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D93F372229CC6E6100A72D90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93F372329CC6E6100A72D90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D93F372629CC6E6100A72D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D93F372729CC6E6100A72D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D93F372929CC6E6100A72D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V35L3L83F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PSWPointMap/Support Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmmolod.PSWPointMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D93F372A29CC6E6100A72D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V35L3L83F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PSWPointMap/Support Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmmolod.PSWPointMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93F370F29CC6E6000A72D90 /* Build configuration list for PBXProject "PSWPointMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F372629CC6E6100A72D90 /* Debug */,
+				D93F372729CC6E6100A72D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93F372829CC6E6100A72D90 /* Build configuration list for PBXNativeTarget "PSWPointMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F372929CC6E6100A72D90 /* Debug */,
+				D93F372A29CC6E6100A72D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D93F373129CC732900A72D90 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+		D9A1B04D29CC73F8006B51B3 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D93F373229CC732900A72D90 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D93F373129CC732900A72D90 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D9A1B04E29CC73F8006B51B3 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9A1B04D29CC73F8006B51B3 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D93F370C29CC6E6000A72D90 /* Project object */;
+}
